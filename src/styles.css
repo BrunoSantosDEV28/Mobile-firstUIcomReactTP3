@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-items {
+  list-style: none;
+}
+
+.menu.open .menu-items {
+  display: block;
+}
+
+.menu.closed .menu-items {
+  display: none;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+}
+
+/* Adicione mais estilos conforme necessário */
